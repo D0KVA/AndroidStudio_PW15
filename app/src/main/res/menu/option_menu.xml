@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Настройки" />
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="2"
+        android:title="Дополнительно">
+        <menu>
+            <group android:id="@+id/fragments">
+                <item
+                    android:id="@+id/open_settings"
+                    android:title="Открыть"
+                    android:icon="@drawable/androed"/>
+                <item
+                    android:id="@+id/save_settings"
+                    android:title="Сохранить"
+                    android:icon="@drawable/breakfast"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
